@@ -1,0 +1,85 @@
+<div class="container">
+
+    <ul>
+        <li class="nav-left">My Chatbots</li>
+        <li class="nav-right" (click)="changeDisplay(false)"> <img src="../../assets/images/organize-list.png"
+                alt="blocks" class="img"> </li>
+        <li class="nav-right" (click)="changeDisplay(true)"> <img src="../../assets/images/organize-blocks.png"
+                alt="blocks" class="img"> </li>
+        <li class="nav-right-button"><button class="btn" (click)="filterby('created')"> Order by creation </button></li>
+        <li class="nav-right-button"><button class="btn" (click)="filterby('name')"> Order by name </button></li>
+        <li class="nav-right"><input type="text" placeholder="Search.." [(ngModel)]="searchText" (input)="filterData($event)" name="search" class="search"></li>
+
+    </ul> 
+
+    <div class="CardContent" *ngIf="displayCards">
+        <div class="favorities">
+            <h3>Favorities</h3>
+        </div>
+
+
+        <div class="cards" >
+            <div  *ngFor="let card of favorties">
+                <app-card [card]="card" 
+                (deleteFavoriteEvent)="deleteFavorite($event)" 
+                (goToProfileEvent) = "goToProfile($event)"
+                [favorite]="mapOfContacts[card.shortName]" 
+                *ngIf="mapOfContacts.get(card.shortName)" 
+                
+                ></app-card>
+            </div>
+        </div>
+
+
+        <hr>
+
+        <div class="cards" >
+            <div  *ngFor="let card of contacts">
+                <app-card [card]="card" 
+                (goToProfileEvent) = "goToProfile($event)"
+                (addFavoriteEvent)="addFavorite($event)" 
+                [favorite]="mapOfContacts[card.shortName]" 
+                *ngIf="!mapOfContacts.get(card.shortName)">></app-card>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="ListContent" *ngIf="!displayCards">
+        <div class="favorities">
+            <h3>Favorities</h3>
+        </div>
+
+
+        <div class="lists" *ngFor="let item of favorties">
+            <app-list-item [item]="item" 
+            (goToProfileEvent) = "goToProfile($event)"
+            (deleteFavoriteEvent)="deleteFavorite($event)"  
+            [favorite]="mapOfContacts[item.shortName]"  
+            *ngIf="mapOfContacts.get(item.shortName)" >  </app-list-item>
+        </div>
+    
+
+        <hr>
+
+
+        <div class="lists" *ngFor="let item of contacts">
+            <app-list-item [item]="item"   
+            (goToProfileEvent) = "goToProfile($event)"
+            (addFavoriteEvent)="addFavorite($event)" 
+            [favorite]="mapOfContacts[item.shortName]"  
+            *ngIf="!mapOfContacts.get(item.shortName)" > </app-list-item>
+        </div>
+    
+
+
+    </div>
+
+      
+    <div class="bottom-btn">
+        <img src="../../assets/images/add.png" class="add-btn" alt="add-btn">
+    </div>
+</div>

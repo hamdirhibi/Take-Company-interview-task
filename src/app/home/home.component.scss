@@ -1,0 +1,120 @@
+.container {
+    padding : 30px; 
+    background-color: #EFFDFD;
+    min-height: 800px;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+
+/* Links will change color when hovered over */
+li a:hover {
+    background-color: #303131;
+}
+
+.nav-right {
+        padding-top: 30px;
+        font-weight: bold;
+        color: #A8AAAD;
+        font-size: x-large;
+        float : right ; 
+        border-radius: 80%;
+}
+
+.nav-left {
+        padding: 50px;
+        font-weight: bold;
+        color: #4C4E4E;
+        font-size: x-large;
+        float : left ; 
+        border-radius: 80%;
+        font-size : 30px;
+}
+.nav-right-button {
+    padding-top: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #A8AAAD;
+    font-size: x-large;
+    float : right ; 
+    border-radius: 80%;
+}
+
+
+
+
+.btn {
+    background-color:  #3DCAED; 
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .img{
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+  .search{
+    border: none;
+    background: hsl(0 0% 93%);
+    border-radius: .25rem;
+    padding: .75rem 1rem;
+    margin-top: 5px;
+}   
+.search:focus {
+    outline: none !important;
+    border:1px solid #4C4E4E;
+    box-shadow: 0 0 10px #719ECE;
+}
+  .favorities{
+     margin: 15px;
+     font-weight: bold;
+     color: #81B7EE;
+     font-size : 30px;
+  }
+
+  .bottom-btn{
+    height: 70px;
+    line-height: 70px;  
+    width: 70px;  
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #3DCAED;
+    color: white;
+    text-align: center;
+    cursor: pointer;  
+    position: fixed;
+    right: 40px;;
+    bottom: 20px;
+}
+  .cards {
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 5px;
+  }
+  
+

@@ -1,0 +1,71 @@
+<div class="container">
+
+    <div class="header">
+        <div class="left">
+            <img src="../../assets/images/blip.png" alt="blip" class="top-img" />
+            <div class="titles">
+                <h3 class="title"><strong>{{profile.name}}</strong></h3>
+                <p class="subtitle">{{profile.template}}</p>
+
+            </div>
+        </div>
+        <div class="right">
+            <p>Created at {{profile.created | date}}</p>
+        </div>
+
+
+
+    </div>
+    <hr class="line">
+    <div class="wrapper">
+        <div class="one card">
+            <p class="subtitle">Region and idom</p>
+            <p class="text">EUA - English (EN)</p>
+
+            <p class="subtitle2">Time Zone</p>
+            <p class="text">EUA - English (EN)</p>
+
+
+        </div>
+        <div class="two card">
+            <img src="../../assets/images/user.png" alt="user" />
+            <div class="titles">
+                <h3 class="title"><strong>{{profile.analytics.user.total}}</strong></h3>
+                <p class="subtitle">Usuarios ativos</p>
+
+            </div>
+        </div>
+        <div class="three ">
+            <div class="three-content">
+            <img src="../../assets/images/plano.png" alt="user" class="three-img"/>
+            <div class="titles">
+                <p class="subtitle">Status Account</p>
+
+                <h3 class="title"><strong>Free</strong></h3>
+                <button class="btn" > update Account </button>
+            </div>
+            </div>
+        </div>
+        <div class="four card"><img src="../../assets/images/union.png" alt="user" />
+            <div class="titles">
+                <h3 class="title"><strong>{{profile.analytics.message.received}}</strong></h3>
+                <p class="subtitle">Mensagens recebidas</p>
+
+
+            </div>
+        </div>
+        <div class="five card"><img src="../../assets/images/union.png" alt="user" />
+            <div class="titles">
+                <h3 class="title"><strong>{{profile.analytics.message.sent}}</strong></h3>
+                <p class="subtitle">Mensagens envidas</p>
+
+            </div>
+        </div>
+    </div>
+
+    <hr class="line">
+
+    <div class="footer">
+        <p>2019, BLIP todos os diretos reservados | <span><strong>Termos de Uso</strong></span> </p>
+    </div>
+</div>

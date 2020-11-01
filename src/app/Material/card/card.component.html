@@ -1,0 +1,17 @@
+
+<div class="card">
+    <div class="header">
+        <img src="../../../assets/images/star.png" class="img"alt="favorite" *ngIf="favorite" (click)="toggleFavorite(false)">
+        <img src="../../../assets/images/favorite.png" class="img"alt="favorite" *ngIf="!favorite" (click)="toggleFavorite(true)">
+
+    </div>
+    <div class="content" >
+        <img [src]="card.image" alt="cardsImg" class="circle" (click)="goToProfile()"/>
+    </div>
+    <div class="content">
+      <h4 class="title"><b>{{card.name}}</b></h4> 
+      <p class="sub-title"> {{card.plan}}</p> 
+    </div>
+</div>
+  
+  

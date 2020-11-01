@@ -1,0 +1,22 @@
+<div class="main-container">
+
+<div class="star">
+    <img src="../../../assets/images/star.png" class="img"alt="favorite" *ngIf="favorite"  (click)="toggleFavorite(false)">
+    <img src="../../../assets/images/favorite.png" class="img"alt="favorite" *ngIf="!favorite" (click)="toggleFavorite(true)">
+
+</div>
+<div class="card">
+    
+    <div class="left" >
+        <img [src]="item.image" alt="cardsImg" class="circle" (click)="goToProfile()"/>
+
+    </div>
+    <div class="left">
+      <h4 class="title"><strong>{{item.shortName}}</strong></h4> 
+    </div>
+    <div class="right">
+        <p class="title">{{item.created | date}}</p> 
+      </div>
+   </div>
+  
+</div>

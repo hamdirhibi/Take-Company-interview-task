@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "smart-contact"
+    }
+  },
+  "defaultProject": "smart-contact",
+  "cli": {
+    "analytics": false
+  }
 }
