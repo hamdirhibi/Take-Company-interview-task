@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { RouterTestingModule } from '@angular/router/testing';
 
 import { ProfileComponent } from './profile.component';
 
@@ -8,6 +9,8 @@ describe('ProfileComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [RouterTestingModule],
+
       declarations: [ ProfileComponent ]
     })
     .compileComponents();
@@ -22,4 +25,11 @@ describe('ProfileComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('should render footer', () => {
+    const fx = TestBed.createComponent(ProfileComponent);
+    fx.detectChanges();
+    const compiled = fx.nativeElement;
+    expect(compiled.querySelector('.footer-text').textContent).toContain('2019, BLIP todos os diretos reservados | Termos de Uso');
+  });
+  
 });

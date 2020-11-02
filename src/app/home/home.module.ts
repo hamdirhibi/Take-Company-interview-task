@@ -6,6 +6,7 @@ import { HomeComponent } from './home.component';
 import { CardComponent } from '../Material/card/card.component';
 import { ListItemComponent } from '../Material/list-item/list-item.component';
 import { FormsModule } from '@angular/forms';
+import { Router, RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { FormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     HomeRoutingModule,
+    RouterModule  , 
     FormsModule,
 
   ],

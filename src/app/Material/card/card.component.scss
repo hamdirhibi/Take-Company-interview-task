@@ -8,20 +8,9 @@
     cursor: pointer;
 
   }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  img{
+    cursor: pointer;
   }
-  
-  .circle {
-    height: 90px;
-    width: 90px;
-    background-color: orange;
-    border-radius: 50%;
-    text-align: center;
-    margin: 10%;
-    display: inline-block;
-    }
   
   .content {
     text-align: center;

@@ -22,4 +22,12 @@ describe('HeaderComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('expected path should include logo.html', () => {
+    const ele = fixture.debugElement.nativeElement.querySelector('img');
+    expect(ele['src']).toContain('logo.png'); 
+  });
+
+
+
 });

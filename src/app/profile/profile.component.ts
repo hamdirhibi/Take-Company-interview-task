@@ -4,7 +4,7 @@ import { SharedService } from '../services/shared.service';
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.scss']
+  styleUrls: ['./profile.component.scss','../styles/sharedStyle.scss']
 })
 export class ProfileComponent implements OnInit {
   profile ;  

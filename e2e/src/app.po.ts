@@ -6,6 +6,15 @@ export class AppPage {
   }
 
   getTitleText(): Promise<string> {
-    return element(by.css('app-root .content span')).getText() as Promise<string>;
+    return element(by.css('app-home .nav-left')).getText() as Promise<string>;
   }
+
+  getProfileWorkflow(){
+    return element(by.css('app-card .circle')) ; 
+  }
+  getProfileFooter(){
+    return element(by.css('app-profile .footer-text')).getText() as Promise<string> ; 
+  }
+
+
 }

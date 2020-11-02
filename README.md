@@ -1,27 +1,105 @@
-# SmartContact
+<h1 align="center">
+  <a href="https://www.wish.com/">
+     Full Delivery Food App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
+  </a>
+</h1>
+## 📋 Introdcution
 
-## Development server
+<p> as Part of my freelancer projects I impelmented a full mobile delivery food app using IONIC 4 for client Side,  Angular 8 to manage real time orders  and nodejs for backend side .</p>
+ 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<div align="center">
+  <img src="./src/assets/images/login.png" width="220" />
+  <img src="./src/assets/images/home.png" width="250" />
+  <img src="./src/assets/images/home2.png" width="250" />
+  <img src="./src/assets/images/signup.png" width="220" />
+</div>
 
-## Code scaffolding
+## WEB APP
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<div style="text-align: center;">
+  <img src="./assets/images/home_website.png"/>
+  <img src="./assets/images/products.png"/>
+  <img src="./assets/images/categories.png"/>
+  <img src="./assets/images/historic.png"/>
+  <img src="./assets/images/view_order.png"/>
+  <img src="./assets/images/login2.png"/>
 
-## Build
+</div>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## 🎉 Technologies used 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Angular 8+
+- NodeJS
+- Express 
+- MongoDB
+- IONIC 4 
+- Socket IO
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## 📋 Requirements 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Npm (node packages manager : https://phoenixnap.com/kb/install-node-js-npm-on-windows) 
+
+- Node JS (https://www.geeksforgeeks.org/installation-of-node-js-on-linux/ ) 
+
+- Angular CLI (https://www.codingforentrepreneurs.com/blog/angular-setup-guide) 
+
+- IONIC CLI (https://tecadmin.net/install-ionic-framework-on-ubuntu/) 
+
+- Git  (https://www.atlassian.com/git/tutorials/install-git) 
+
+## 📖 Run-the-project
+
+- First open your terminal and clone the project in your PC using : git clone https://github.com/hamdirhibi/Full-Delivery-Food-App.git
+
+- RUN npm install 
+
+- Create new .env file and pass the following variables : 
+  
+  MONGODB_URI ==> the url of you mongodb databse (if you don't have yet go to https://account.mongodb.com/ and create one ! ) 
+  
+  PORT = 3000
+  
+- thats awesome ! lets move to the mobile config now ! 
+
+- cd /client-mobile
+
+- npm install 
+
+- cd .. 
+
+- cd /client-web
+
+- run npm install 
+
+Wow that's  super simple ? 
+
+
+## 🚀 Test It ? 
+
+that's it ? of course not , here you will find the apk file in order to facilitate the task to test on line   : 
+
+
+Client App : https://moez-delevery.firebaseapp.com/
+
+
+Web App : https://moez-website.web.app/
+
+
+authenfitication for both app : 
+
+email : geekrhibi@gmail.com
+password: hamdirhibi
+
+
+##  Contact Me
+
+don't hesitate to contact me if there any problem or suggestion :
+- e-mail : geekrhibi@gmail.com
+- linkedin : hamdirhibi
+- telegram : 
+
