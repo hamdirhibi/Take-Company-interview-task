@@ -3,6 +3,7 @@
   justify-content: space-between;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   padding: 30px;
 }
 
@@ -11,6 +12,7 @@
   padding: 20px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   min-width: 100px;
 
   .top-img {
@@ -43,14 +45,28 @@
 
   }
 }
-
+@media screen and (min-width: 901px) {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(300px, auto);
-  grid-auto-columns: minmax(500px, auto);
+  grid-auto-rows: minmax(auto, auto);
+  grid-auto-columns: minmax(250px, auto);
   flex-wrap: wrap;
 }
+
+}
+
+
+@media screen and (max-width: 900px) {
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+    
+
 
 .wrapper>div {
   padding: 50px;
@@ -138,10 +154,9 @@
 
 .five {
   grid-column-start: 3;
-  grid-column-end: 3;
+  grid-column-end: 4;
   display: flex;
-  flex-direction: row;
-
+  flex-direction: row;  
   img {
     background-color: #3490CF;
     padding: 20px;
@@ -178,6 +193,8 @@
 .content {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+
   padding-top: 60px;
   padding-bottom: 50px;
   padding-right: 50px;

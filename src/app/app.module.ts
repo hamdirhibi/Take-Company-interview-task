@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { SharedService }   from './services/shared.service'
+import { SharedService }   from './services/shared.service';
+import { PipeModule } from './directives/pipe.module';
 
 
 @NgModule({
@@ -14,7 +15,9 @@ import { SharedService }   from './services/shared.service'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PipeModule.forRoot()
+
   ],
   providers: [SharedService],
   bootstrap: [AppComponent]

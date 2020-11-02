@@ -7,6 +7,7 @@ import { CardComponent } from '../Material/card/card.component';
 import { ListItemComponent } from '../Material/list-item/list-item.component';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterModule } from '@angular/router';
+import { PipeModule } from '../directives/pipe.module';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { Router, RouterModule } from '@angular/router';
     HomeRoutingModule,
     RouterModule  , 
     FormsModule,
+    PipeModule.forRoot()
 
   ],
   schemas: []
