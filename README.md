@@ -17,6 +17,7 @@
   <img src="./src/assets/images/3.jpg"/>
 </div>
 
+## 📋 what i built 
 
 
 
@@ -24,9 +25,19 @@
   <img src="./src/assets/images/home1.png"/>
   <img src="./src/assets/images/home2.png"/>
   <img src="./src//assets/images/profile.png"/>
-  <img src="./src/assets/images/e2e.png"/>
-  <img src="./src/assets/images/unittest.png"/>
+</div>
 
+## 📋 unit tests 
+
+
+<div>
+  <img src="./src/assets/images/e2e.png"/>
+</div>
+
+  ## 📋 e2e test
+
+<div>
+  <img src="./src/assets/images/unittest.png"/>
 </div>
 
 
