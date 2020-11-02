@@ -31,13 +31,15 @@
 
 
 <div>
-  <img src="./src/assets/images/e2e.png"/>
+    <img src="./src/assets/images/unittest.png"/>
+
 </div>
 
   ## 📋 e2e test
 
 <div>
-  <img src="./src/assets/images/unittest.png"/>
+  <img src="./src/assets/images/e2e.png"/>
+
 </div>
 
 
