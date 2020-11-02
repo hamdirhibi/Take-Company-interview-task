@@ -20,7 +20,7 @@
 
 
 <div style="text-align: center;">
-  <img src="./src/assets/images/home.png"/>
+  <img src="./src/assets/images/home1.png"/>
   <img src="./src/assets/images/home2.png"/>
   <img src="./src//assets/images/profile.png"/>
   <img src="./src/assets/images/e2e.png"/>
@@ -52,46 +52,29 @@
 
 ## 📖 Run-the-project
 
-- First open your terminal and clone the project in your PC using : git clone https://github.com/hamdirhibi/Full-Delivery-Food-App.git
+- First open your terminal and clone the project in your PC using : git clone https://github.com/hamdirhibi/Take-Company-interview-task.git
 
 - RUN npm install 
 
-- Create new .env file and pass the following variables : 
-  
-  MONGODB_URI ==> the url of you mongodb databse (if you don't have yet go to https://account.mongodb.com/ and create one ! ) 
-  
-  PORT = 3000
-  
-- thats awesome ! lets move to the mobile config now ! 
-
-- cd /client-mobile
-
-- npm install 
-
-- cd .. 
-
-- cd /client-web
-
-- run npm install 
+- RUN ng serve
 
 Wow that's  super simple ? 
 
 
 ## 🚀 Test It ? 
 
-that's it ? of course not , here you will find the apk file in order to facilitate the task to test on line   : 
+that's it ? of course not , here you will find the url to test our APP : https://take-interview-task.herokuapp.com/
 
+## 🚀 Docker IMAGE ! 
 
-Client App : https://moez-delevery.firebaseapp.com/
+here you will find the docker image : https://hub.docker.com/repository/docker/hamdirhibi/take
+  
 
+to run it locally open your command line and follow those comands : 
 
-Web App : https://moez-website.web.app/
-
-
-authenfitication for both app : 
-
-email : geekrhibi@gmail.com
-password: hamdirhibi
+- docker pull hamdirhibi/take:v0
+- docker run -d -it -p 4200:4200/tcp --name take take:v0
+- 
 
 
 ##  Contact Me
@@ -99,5 +82,5 @@ password: hamdirhibi
 don't hesitate to contact me if there any problem or suggestion :
 - e-mail : geekrhibi@gmail.com
 - linkedin : hamdirhibi
-- telegram : 
+- telegram : 3ezdine junior
 
