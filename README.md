@@ -6,37 +6,37 @@
 </h1>
 ## 📋 Introdcution
 
-<p> as Part of my interview task with TAKE company i built an angular project include (sort ) .</p>
+<p> as Part of my interview task with TAKE company i built an angular project based on three  .</p>
  
-
-<div align="center">
-  <img src="./src/assets/images/login.png" width="220" />
-  <img src="./src/assets/images/home.png" width="250" />
-  <img src="./src/assets/images/home2.png" width="250" />
-  <img src="./src/assets/images/signup.png" width="220" />
-</div>
-
-## WEB APP
+## 📋 what is requested 
 
 <div style="text-align: center;">
-  <img src="./assets/images/home_website.png"/>
-  <img src="./assets/images/products.png"/>
-  <img src="./assets/images/categories.png"/>
-  <img src="./assets/images/historic.png"/>
-  <img src="./assets/images/view_order.png"/>
-  <img src="./assets/images/login2.png"/>
+  <img src="./src/assets/images/1.pdf"/>
+  <img src="./src/assets/images/2.pdf"/>
+  <img src="./src/assets/images/3.pdf"/>
+</div>
+
+
+
+
+<div style="text-align: center;">
+  <img src="./src/assets/images/home1.png"/>
+  <img src="./src/assets/images/home2.png"/>
+  <img src="./src//assets/images/profile.png"/>
+  <img src="./src/assets/images/e2e.png"/>
+  <img src="./src/assets/images/unittest.png"/>
 
 </div>
 
 
-## 🎉 Technologies used 
 
-- Angular 8+
-- NodeJS
-- Express 
-- MongoDB
-- IONIC 4 
-- Socket IO
+## 🎉 Key words  
+
+- Angular 10 . 
+- Unit test . 
+- e2e test . 
+- Shared style .
+- responsive Web Site using CSS
 
 
 
@@ -48,52 +48,42 @@
 
 - Angular CLI (https://www.codingforentrepreneurs.com/blog/angular-setup-guide) 
 
-- IONIC CLI (https://tecadmin.net/install-ionic-framework-on-ubuntu/) 
-
 - Git  (https://www.atlassian.com/git/tutorials/install-git) 
 
 ## 📖 Run-the-project
 
-- First open your terminal and clone the project in your PC using : git clone https://github.com/hamdirhibi/Full-Delivery-Food-App.git
+- First open your terminal and clone the project in your PC using : git clone https://github.com/hamdirhibi/Take-Company-interview-task.git
 
 - RUN npm install 
 
-- Create new .env file and pass the following variables : 
-  
-  MONGODB_URI ==> the url of you mongodb databse (if you don't have yet go to https://account.mongodb.com/ and create one ! ) 
-  
-  PORT = 3000
-  
-- thats awesome ! lets move to the mobile config now ! 
-
-- cd /client-mobile
-
-- npm install 
-
-- cd .. 
-
-- cd /client-web
-
-- run npm install 
+- RUN ng serve
 
 Wow that's  super simple ? 
 
 
 ## 🚀 Test It ? 
 
-that's it ? of course not , here you will find the apk file in order to facilitate the task to test on line   : 
+that's it ? of course not , here you will find the url to test our APP : https://take-interview-task.herokuapp.com/
+
+## 🚀 Docker IMAGE ! 
+
+here you will find the docker image : https://hub.docker.com/repository/docker/hamdirhibi/take
+  
+
+to run it locally open your command line and follow those comands : 
+
+- docker pull hamdirhibi/take:v0
+- docker run -d -it -p 4444:4200/tcp --name take take:v0
+- open your navigator and visit : http://localhost:4444/
+- Bommm ! it's working 
+
+<div style="text-align: center;">
+  <img src="./src/assets/images/docker.png"/>
+</div>
 
 
-Client App : https://moez-delevery.firebaseapp.com/
 
 
-Web App : https://moez-website.web.app/
-
-
-authenfitication for both app : 
-
-email : geekrhibi@gmail.com
-password: hamdirhibi
 
 
 ##  Contact Me
@@ -101,5 +91,5 @@ password: hamdirhibi
 don't hesitate to contact me if there any problem or suggestion :
 - e-mail : geekrhibi@gmail.com
 - linkedin : hamdirhibi
-- telegram : 
+- telegram : 3ezdine junior
 
