@@ -6,7 +6,7 @@
 </h1>
 ## 📋 Introdcution
 
-<p> as Part of my freelancer projects I impelmented a full mobile delivery food app using IONIC 4 for client Side,  Angular 8 to manage real time orders  and nodejs for backend side .</p>
+<p> as Part of my interview task with TAKE company i built an angular project include (sort ) .</p>
  
 
 <div align="center">
