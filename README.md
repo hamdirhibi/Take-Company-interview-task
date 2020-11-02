@@ -6,7 +6,7 @@
 </h1>
 
 <div style="text-align: center;">
-  <img src="./src/assets/videos/take.movie.mp4"/>
+  <img src="./src/assets/videos/take-movie.mp4"/>
 </div>
 
 
