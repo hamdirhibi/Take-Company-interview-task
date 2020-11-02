@@ -5,6 +5,12 @@
   </a>
 </h1>
 
+<div style="text-align: center;">
+  <img src="./src/assets/videos/take.movie.mp4"/>
+</div>
+
+
+
 ## 📋 Introdcution
 
 <p> as Part of my interview task with TAKE company i built an angular project incuding unit test , e2e test , sharing test , responsive web page using css and ohers baic operations like filtering , mapping , sharing object between components and manage their state using Observebale and behavior subject properties , change displaying visualisation ... .</p>
@@ -18,8 +24,6 @@
 </div>
 
 ## 📋 what i built 
-
-
 
 <div style="text-align: center;">
   <img src="./src/assets/images/home1.png"/>
