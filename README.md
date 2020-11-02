@@ -1,19 +1,20 @@
 <h1 align="center">
-  <a href="https://www.wish.com/">
-     Full Delivery Food App
+  <a href="https://www.take.com/">
+     Take Interview Task
 
   </a>
 </h1>
+
 ## 📋 Introdcution
 
-<p> as Part of my interview task with TAKE company i built an angular project based on three  .</p>
+<p> as Part of my interview task with TAKE company i built an angular project incuding unit test , e2e test , sharing test , responsive web page using css and ohers baic operations like filtering , mapping , sharing object between components and manage their state using Observebale and behavior subject properties , change displaying visualisation ... .</p>
  
 ## 📋 what is requested 
 
 <div style="text-align: center;">
-  <img src="./src/assets/images/1.pdf"/>
-  <img src="./src/assets/images/2.pdf"/>
-  <img src="./src/assets/images/3.pdf"/>
+  <img src="./src/assets/images/1.jpg"/>
+  <img src="./src/assets/images/2.jpg"/>
+  <img src="./src/assets/images/3.jpg"/>
 </div>
 
 

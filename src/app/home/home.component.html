@@ -69,7 +69,7 @@
         <div class="lists" *ngFor="let item of contacts">
             <app-list-item [item]="item"   
             (goToProfileEvent) = "goToProfile($event)"
-            (addFavoriteEvent)="addFavorite($event)" 
+            (addFavoriteEvent) = "addFavorite($event)" 
             [favorite]="mapOfContacts[item.shortName]"  
             *ngIf="!mapOfContacts.get(item.shortName)" > </app-list-item>
         </div>

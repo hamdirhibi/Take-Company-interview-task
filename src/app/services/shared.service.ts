@@ -9,13 +9,7 @@ export class SharedService {
   defaultProfile = defaultProfile ; 
   contactBehavior = new BehaviorSubject(this.defaultProfile) ; 
   contactObservable = this.contactBehavior.asObservable() ; 
-  contactsBackupBehavior = new BehaviorSubject(this.contacts) ; 
-  contactsBackupObservable = this.contactsBackupBehavior.asObservable() ; 
-
-  favoritiesBackupBehavior = new BehaviorSubject([]) ; 
-  favoritiesBackupObservable = this.favoritiesBackupBehavior.asObservable() ; 
-
-
+  
   constructor() { }
 
 
@@ -23,12 +17,7 @@ export class SharedService {
     this.contactBehavior.next(contact) ; 
   }
 
-  setContactsList(contact){
-    this.contactsBackupBehavior.next(contact) ; 
-  }
-  setFavoritesList(contact){
-    this.favoritiesBackupBehavior.next(contact) ; 
-  }
+  
 
 
 

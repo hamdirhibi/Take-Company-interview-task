@@ -24,18 +24,6 @@ export class HomeComponent implements OnInit {
     this.contacts.forEach(element => {
         this.mapOfContacts.set(element.shortName,false) ; 
     });
-    this.sharedService.contactsBackupObservable.subscribe(data=>{
-        this.backupContacts= data ; 
-        this.contacts = data ; 
-    },err=>{
-      //err 
-    })
-    this.sharedService.favoritiesBackupObservable.subscribe(data=>{
-      this.backupFavorities= data ; 
-      this.favorties = data ; 
-    },err=>{
-      //err 
-    })
 
     console.log(this.contacts)
 
@@ -61,8 +49,6 @@ export class HomeComponent implements OnInit {
     this.contacts.splice(this.contacts.findIndex(contact => contact.shortName === event), 1) ; 
     this.backupFavorities = this.favorties ; 
     this.backupContacts = this.contacts ; 
-    this.sharedService.setContactsList(this.backupContacts) ; 
-    this.sharedService.setFavoritesList(this.backupFavorities) ; 
 
   }
   deleteFavorite(event){
@@ -77,9 +63,6 @@ export class HomeComponent implements OnInit {
     //in the filterData function  
     this.backupFavorities = this.favorties ; 
     this.backupContacts = this.contacts ; 
-    this.sharedService.setContactsList(this.backupContacts) ; 
-    this.sharedService.setFavoritesList(this.backupFavorities) ; 
-    
 
   }
   goToProfile(contact){

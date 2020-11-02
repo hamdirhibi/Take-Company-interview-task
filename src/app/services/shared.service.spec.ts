@@ -19,8 +19,8 @@ describe('SharedService', () => {
   });
   it('#backup contact observable should return value from observable',
     (done: DoneFn) => {
-    service.contactsBackupObservable.subscribe(value => {
-      expect(value).toBe(contacts);
+    service.contactObservable.subscribe(value => {
+      expect(value).toBe(defaultProfile);
       done();
     });
   });
