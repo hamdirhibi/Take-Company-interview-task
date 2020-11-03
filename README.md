@@ -5,9 +5,7 @@
   </a>
 </h1>
 
-<div style="text-align: center;">
-  <img src="./src/assets/videos/take-movie.mp4"/>
-</div>
+[[Demo Take task]](https://www.youtube.com/watch?v=RQBMzmfh8eI&feature=youtu.be)
 
 
 
